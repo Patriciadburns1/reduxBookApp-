@@ -14,10 +14,7 @@ renderList(){
     }); 
 }
 
-  render(){
-
-    console.log("props in book list" , this.props); 
-    console.log("this is state in book-list", this.state); 
+  render(){ 
       return(
           <ul className="list-group col-sm-4">
           {this.renderList()}
