@@ -6,8 +6,6 @@ class BookDetail extends Component {
 
 
     render(){
-        console.log("state for book_detail", this.state); 
-        console.log("this is props in book_detail", this.props); 
         if(!this.props.book){
             return <div> Select a Book to Get Started! </div>
         }
